@@ -5,8 +5,18 @@ name: Lint
 on:
   push:
     branches: [master]
+    paths:
+      - "*.py"
+      - "**/*.py"
+      - "requirements.txt"
+      - ".github/workflows/lint.yml"
   pull_request:
     branches: [master]
+    paths:
+      - "*.py"
+      - "**/*.py"
+      - "requirements.txt"
+      - ".github/workflows/lint.yml"
 
 jobs:
   lint:
