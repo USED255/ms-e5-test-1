@@ -20,14 +20,6 @@ on:
       - "**/*.py"
       - "requirements.txt"
       - ".github/workflows/codeql.yml"
-  pull_request:
-    paths:
-      - "*.py"
-      - "**/*.py"
-      - "requirements.txt"
-      - ".github/workflows/codeql.yml"
-  schedule:
-    - cron: '16 23 * * 0'
 
 jobs:
   analyze:
