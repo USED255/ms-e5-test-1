@@ -21,6 +21,7 @@ def get_user(token):
 
 # </FirstCodeSnippet>
 
+
 # <GetCalendarSnippet>
 def get_calendar_events(token, start, end, timezone):
     # Set headers
@@ -49,6 +50,7 @@ def get_calendar_events(token, start, end, timezone):
 
 
 # </GetCalendarSnippet>
+
 
 # <CreateEventSnippet>
 def create_event(token, subject, start, end, attendees=None, body=None, timezone="UTC"):

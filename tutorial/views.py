@@ -12,6 +12,7 @@ from tutorial.auth_helper import (
 )
 from tutorial.graph_helper import *
 
+
 # <HomeViewSnippet>
 def home(request):
     context = initialize_context(request)
@@ -20,6 +21,7 @@ def home(request):
 
 
 # </HomeViewSnippet>
+
 
 # <InitializeContextSnippet>
 def initialize_context(request):
@@ -39,6 +41,7 @@ def initialize_context(request):
 
 # </InitializeContextSnippet>
 
+
 # <SignInViewSnippet>
 def sign_in(request):
     # Get the sign-in flow
@@ -54,6 +57,7 @@ def sign_in(request):
 
 # </SignInViewSnippet>
 
+
 # <SignOutViewSnippet>
 def sign_out(request):
     # Clear out the user and token
@@ -63,6 +67,7 @@ def sign_out(request):
 
 
 # </SignOutViewSnippet>
+
 
 # <CallbackViewSnippet>
 def callback(request):
@@ -78,6 +83,7 @@ def callback(request):
 
 
 # </CallbackViewSnippet>
+
 
 # <CalendarViewSnippet>
 def calendar(request):
@@ -124,6 +130,7 @@ def calendar(request):
 
 
 # </CalendarViewSnippet>
+
 
 # <NewEventViewSnippet>
 def newevent(request):

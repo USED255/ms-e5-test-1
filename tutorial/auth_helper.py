@@ -64,6 +64,7 @@ def get_token_from_code(request):
 
 # </FirstCodeSnippet>
 
+
 # <SecondCodeSnippet>
 def store_user(request, user):
     try:
