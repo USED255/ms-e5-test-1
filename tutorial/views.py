@@ -1,14 +1,16 @@
-from django.shortcuts import render
-from django.http import HttpResponse, HttpResponseRedirect
-from django.urls import reverse
 from datetime import datetime, timedelta
-from dateutil import tz, parser
+
+from dateutil import parser, tz
+from django.http import HttpResponse, HttpResponseRedirect
+from django.shortcuts import render
+from django.urls import reverse
+
 from tutorial.auth_helper import (
     get_sign_in_flow,
-    get_token_from_code,
-    store_user,
-    remove_user_and_token,
     get_token,
+    get_token_from_code,
+    remove_user_and_token,
+    store_user,
 )
 from tutorial.graph_helper import *
 

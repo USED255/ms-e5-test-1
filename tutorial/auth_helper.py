@@ -1,11 +1,13 @@
 # Copyright (c) Microsoft Corporation.
 # Licensed under the MIT License.
 
-# <FirstCodeSnippet>
-import yaml
-import msal
 import os
 import time
+
+import msal
+
+# <FirstCodeSnippet>
+import yaml
 
 # Load the oauth_settings.yml file
 stream = open("oauth_settings.yml", "r")

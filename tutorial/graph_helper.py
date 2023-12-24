@@ -1,9 +1,10 @@
 # Copyright (c) Microsoft Corporation.
 # Licensed under the MIT License.
 
+import json
+
 # <FirstCodeSnippet>
 import requests
-import json
 
 graph_url = "https://graph.microsoft.com/v1.0"
 
