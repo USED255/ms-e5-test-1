@@ -2,7 +2,7 @@ asgiref==3.8.1
 certifi==2024.2.2
 cffi==1.16.0
 chardet==5.2.0
-cryptography==42.0.6
+cryptography==42.0.7
 Django==5.0.6
 idna==3.7
 msal==1.28.0
