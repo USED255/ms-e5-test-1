@@ -5,7 +5,7 @@ chardet==5.2.0
 cryptography==42.0.8
 Django==5.0.6
 idna==3.7
-msal==1.29.0
+msal==1.30.0
 pycparser==2.22
 PyJWT==2.8.0
 python-dateutil==2.9.0.post0
